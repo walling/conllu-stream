@@ -1,0 +1,27 @@
+{
+  "name": "conllu-stream",
+  "version": "0.0.1",
+  "description": "Using this module you can parse CoNLL-U files as a stream of sentence objects. You can also access the low-level line parser, if you want deeper control.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walling/conllu-stream.git"
+  },
+  "keywords": [
+    "conllu",
+    "stream",
+    "universal dependencies",
+    "ud",
+    "treebank"
+  ],
+  "author": "Bjarke Walling <bwp@bwp.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walling/conllu-stream/issues"
+  },
+  "homepage": "https://github.com/walling/conllu-stream#readme",
+  "dependencies": {
+    "pumpify": "^1.3.5",
+    "split2": "^2.1.1",
+    "through2": "^2.0.3"
+  }
+}
